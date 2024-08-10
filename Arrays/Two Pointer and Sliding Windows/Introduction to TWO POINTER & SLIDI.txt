@@ -1,0 +1,5 @@
+Introduction to TWO POINTER & SLIDIN WINDOW
+
+1.Its a method not an algorithm.
+2.There is mainly 4 patters in it.
+    a) 
