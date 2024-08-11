@@ -2,4 +2,22 @@ Introduction to TWO POINTER & SLIDIN WINDOW
 
 1.Its a method not an algorithm.
 2.There is mainly 4 patters in it.
-    a) 
+    a) constant window.
+	example like finding the largest sum of k consecutive      elemensts from a array.
+    b) Longest SubArray / Substring with condition *****
+        *Three approach: bruteforce, better, optimal.
+	*in sliding window there are shrinking and expanding happends to 'r' and shrink happends to 'l'.
+   
+    c)No of subarrays with some condition(*******)
+	
+	*In these kind of questions we use the logic the pattern 2. 
+	*If the question is to find the no of subarrays with sum = k.First we will find the no of subarrays with sum <= k and then we will find the no of sub array with sum <= k-1. Then we subtract the two values to get the required answer.
+
+    d)Shortest or Minimum Window, with a condition.
+
+
+
+
+
+Note:
+This is not a constant method, its a constructive method which changes according to the problem. But the two pointer and sliding of window stays the same.
