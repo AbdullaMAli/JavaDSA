@@ -11,7 +11,7 @@ public class LongestSubArrayLengthWithSumLessThanOrEqualToK
     }
 	public static void main(String[] args) {
 		int[] arr = {2,0,0,0,0,4,2};
-		int k = 6;//conditional valuw
+		int k = 6;//conditional value
 		
 		int sum = 0;//var to store current sum 
 		int maxLength = 0;//var to store the answer
@@ -19,7 +19,7 @@ public class LongestSubArrayLengthWithSumLessThanOrEqualToK
 		int r = 0;//right pointer, which is used for expanding
 		
 		while(r<arr.length){//r can only go up till the end of the arr
-		    sum = sum + arr[r];//the first sum is always the first valuw
+		    sum = sum + arr[r];//the first sum is always the first value
 
             //while can also be used down.
 
