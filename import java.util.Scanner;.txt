@@ -1,0 +1,36 @@
+import java.util.Scanner;
+public class Main
+{
+    static int Max(int a, int b){
+        if(a>=b){
+            return a;
+        }else{
+            return b;
+        }
+    }
+    
+    static void printBox(char[][] arr){
+        for(int i = 0;i<arr.length;i++){
+            System.out.print("|");
+            for(int j = 0;j<arr[0].length;j++){
+                System.out.print(arr[i][j]+" |");
+            }
+            System.out.println();
+        }
+    }
+	public static void main(String[] args) {
+	    Scanner inp = new Scanner(System.in);
+	    
+	    char[][] box = new char[3][3];
+	    
+	    char player = 'X';
+	    Boolean gameOver = false;
+	    
+	    while(!gameOver){
+	        printBox(box);
+	        hasWon();
+	    }
+	    printBox(box);
+	    
+	}
+}
