@@ -1,0 +1,16 @@
+{
+  "faq": [
+    {
+      "question": "What is a Raga?",
+      "answer": "A Raga is a melodic framework used in Indian classical music."
+    },
+    {
+      "question": "Who is Lata Mangeshkar?",
+      "answer": "Lata Mangeshkar is one of India's most renowned playback singers."
+    },
+    {
+      "question": "What is Hindustani classical music?",
+      "answer": "Hindustani classical music is the North Indian style of classical music."
+    }
+  ]
+}
